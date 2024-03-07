@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Additional details">4878ff7c38d0021043438e355a08e43b</macroponent>
+        <name>Fetch catalog item details</name>
+        <preset/>
+        <required_translations>[ {
+  "code" : "",
+  "message" : "No additional details at this time.",
+  "comment" : ""
+} ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+async function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    var data = api.data.look_up_records_1.results;
+    var finalOutput = [];
+    data.forEach(function(element) {
+        if (element.sc_item_option._reference.value.displayValue) {
+            finalOutput.push({
+                'label': element.sc_item_option._reference.item_option_new.displayValue,
+                'value': {
+                    'type': 'string',
+                    'value': element.sc_item_option._reference.value.displayValue
+                }
+            });
+        }
+    });
+    if (finalOutput != "") {
+        api.setState('labelValue', finalOutput);
+    } else {
+        var emptylabel = await helpers.translate("No additional details at this time.");
+        var emptyvalue = "";
+        finalOutput.push({
+            'label': emptylabel,
+            'value': {
+                'type': 'string',
+                'value': emptyvalue
+            }
+        });
+        api.setState('labelValue', finalOutput);
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-02-09 16:44:20</sys_created_on>
+        <sys_id>cc78ff7c07d002108bc122a5d1cb033b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Fetch catalog item details</sys_name>
+        <sys_package display_value="Safety" source="x_568580_safety">a659fa64471002109d76edf1d16d43de</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">a659fa64471002109d76edf1d16d43de</sys_scope>
+        <sys_update_name>sys_ux_client_script_cc78ff7c07d002108bc122a5d1cb033b</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-02-09 16:44:20</sys_updated_on>
+        <target/>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

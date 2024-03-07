@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_status_of_content">
+    <gsw_status_of_content action="INSERT_OR_UPDATE">
+        <best_practice_allowed_ever>0</best_practice_allowed_ever>
+        <checksum/>
+        <content display_value="Set up pipeline on production">1d1604500ff42010310be3d1df767e22</content>
+        <effective_weight>1</effective_weight>
+        <more_info_visited>false</more_info_visited>
+        <previous_status>0</previous_status>
+        <progress>0</progress>
+        <related_log_entry display_value="2024-02-17 22:23:37">5cb004b7471002109d76edf1d16d43ea</related_log_entry>
+        <status>0</status>
+        <sys_class_name>gsw_status_of_content</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-18 06:23:37</sys_created_on>
+        <sys_id>90b004b7471002109d76edf1d16d43eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>0</sys_name>
+        <sys_package display_value="Safety" source="x_568580_safety">a659fa64471002109d76edf1d16d43de</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">a659fa64471002109d76edf1d16d43de</sys_scope>
+        <sys_update_name>gsw_status_of_content_90b004b7471002109d76edf1d16d43eb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-18 06:23:37</sys_updated_on>
+    </gsw_status_of_content>
+</record_update>

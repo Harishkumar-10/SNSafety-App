@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_pipeline_environment">
+    <sn_pipeline_environment action="INSERT_OR_UPDATE">
+        <instance_credential display_value="x_568580_safety.SafePipe">2d6b1025479842109d76edf1d16d43db</instance_credential>
+        <instance_id>Validation Failed: Failure code:</instance_id>
+        <instance_type>dev</instance_type>
+        <instance_url>https://nowlearning-nlinst01468937-0001.lab.service-now.com/</instance_url>
+        <is_controller>false</is_controller>
+        <name>Dev 2</name>
+        <sys_class_name>sn_pipeline_environment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-11 08:40:50</sys_created_on>
+        <sys_id>6d6810ed475842109d76edf1d16d431f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Dev 2</sys_name>
+        <sys_package display_value="Safety" source="x_568580_safety">a659fa64471002109d76edf1d16d43de</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">a659fa64471002109d76edf1d16d43de</sys_scope>
+        <sys_update_name>sn_pipeline_environment_6d6810ed475842109d76edf1d16d431f</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-02-13 10:08:37</sys_updated_on>
+    </sn_pipeline_environment>
+</record_update>
