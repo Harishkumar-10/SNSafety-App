@@ -6,7 +6,7 @@
         <availability>on_desktop</availability>
         <billable>false</billable>
         <can_cancel>false</can_cancel>
-        <category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</category>
+        <category display_value="Can We Help You?">9b7c3975474102109d76edf1d16d43de</category>
         <checked_out/>
         <cost>0</cost>
         <custom_cart/>
@@ -68,7 +68,7 @@
 * To access the variables, use `producer.var1` where var1 is the name of the variable
 * To access the Record Producer use `cat_item`
 */]]></save_script>
-        <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
+        <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4,2b8bf36c474942109d76edf1d16d4309</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
         <sc_template display_value="AES Record Producer">211f71ca73202010ae42d31ee2f6a785</sc_template>
@@ -87,14 +87,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-09 15:22:03</sys_created_on>
         <sys_id>3f95ab7c475002109d76edf1d16d43d3</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Report a Safety Issue</sys_name>
         <sys_package display_value="Safety" source="x_568580_safety">a659fa64471002109d76edf1d16d43de</sys_package>
         <sys_policy/>
         <sys_scope display_value="Safety">a659fa64471002109d76edf1d16d43de</sys_scope>
         <sys_update_name>sc_cat_item_producer_3f95ab7c475002109d76edf1d16d43d3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-09 16:32:50</sys_updated_on>
+        <sys_updated_on>2024-03-20 17:39:10</sys_updated_on>
         <table_name>x_568580_safety_issues</table_name>
         <taxonomy_topic/>
         <template/>
